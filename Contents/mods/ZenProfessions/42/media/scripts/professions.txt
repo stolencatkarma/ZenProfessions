@@ -70,6 +70,8 @@ module ZenProfessions
         UIName = UI_prof_Secretary,
         UIDescription = UI_profdesc_Secretary,
         IconPathName = profession_tailor,
+        XPBoosts = Maintenance=1,
+        GrantedRecipes = MakeSheetPaper;MakePencil,
     }
 
     character_profession_definition zen:postman
@@ -80,6 +82,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_Postman,
         IconPathName = profession_fitnessinstructor,
         XPBoosts = Sprinting=2;Fitness=1,
+        GrantedRecipes = MakeSheetPaper;MakeEnvelope,
     }
 
     character_profession_definition zen:busdriver
@@ -90,6 +93,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_BusDriver,
         IconPathName = profession_mechanic,
         XPBoosts = Mechanics=2,
+        GrantedRecipes = BasicRepairCarEngine;BasicRepairCarBattery,
     }
 
     character_profession_definition zen:cabdriver
@@ -100,6 +104,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_CabDriver,
         IconPathName = profession_mechanic,
         XPBoosts = Mechanics=1;Sprinting=1,
+        GrantedRecipes = BasicRepairCarTire;BasicRepairCarBrake,
     }
 
     character_profession_definition zen:janitor
@@ -110,6 +115,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_Janitor,
         IconPathName = profession_repairman2,
         XPBoosts = Maintenance=2,
+        GrantedRecipes = MakeCleaningLiquid;MakeBleach,
     }
 
     character_profession_definition zen:photographer
@@ -120,6 +126,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_Photographer,
         IconPathName = profession_policeofficer2,
         XPBoosts = Aiming=1,
+        GrantedRecipes = CraftMakeshiftCamera,
     }
 
     character_profession_definition zen:videorentalclerk
@@ -130,6 +137,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_VideoRentalClerk,
         IconPathName = profession_burgerflipper,
         XPBoosts = Electricity=1,
+        GrantedRecipes = CraftMakeshiftRemote;CraftMakeshiftVHS,
     }
 
     character_profession_definition zen:plumber
@@ -149,6 +157,8 @@ module ZenProfessions
         UIName = UI_prof_Teacher,
         UIDescription = UI_profdesc_Teacher,
         IconPathName = profession_doctor2,
+        XPBoosts = Teaching=1;Maintenance=1,
+        GrantedRecipes = MakeSheetPaper;MakeNotebook,
     }
 
     character_profession_definition zen:baker
@@ -181,6 +191,7 @@ module ZenProfessions
         UIDescription = UI_profdesc_Lifeguard,
         IconPathName = profession_fitnessinstructor,
         XPBoosts = Sprinting=1;Fitness=1,
+        GrantedRecipes = MakeFishingRod,
     }
 
     character_profession_definition zen:paramedic
@@ -191,5 +202,6 @@ module ZenProfessions
         UIDescription = UI_profdesc_Paramedic,
         IconPathName = profession_doctor2,
         XPBoosts = Doctor=2;Sprinting=1,
+        GrantedRecipes = MakeBandage;MakeSterilizedRag,
     }
 }
