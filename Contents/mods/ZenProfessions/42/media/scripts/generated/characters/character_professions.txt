@@ -256,4 +256,208 @@ module Base
         XPBoosts = Aiming=2;Reloading=2,
         GrantedRecipes = MakeTarpChestRig,
     }
+
+    character_profession_definition base:librarian
+    {
+        CharacterProfession = base:librarian,
+        Cost = 2,
+        UIName = UI_prof_Librarian,
+        UIDescription = UI_profdesc_Librarian,
+        IconPathName = profession_doctor2,
+        XPBoosts = PlantScavenging=2;Maintenance=1,
+        GrantedRecipes = MakeHollowBook,
+    }
+
+    character_profession_definition base:journalist
+    {
+        CharacterProfession = base:journalist,
+        Cost = 0,
+        UIName = UI_prof_Journalist,
+        UIDescription = UI_profdesc_Journalist,
+        IconPathName = profession_burglar2,
+        XPBoosts = Sneak=1;Lightfoot=1,
+    }
+
+    character_profession_definition base:dj
+    {
+        CharacterProfession = base:dj,
+        Cost = 2,
+        UIName = UI_prof_DJ,
+        UIDescription = UI_profdesc_DJ,
+        IconPathName = profession_electrician,
+        XPBoosts = Electricity=1,
+        GrantedRecipes = CraftMakeshiftRadio,
+    }
+
+    character_profession_definition base:vcrotechnician
+    {
+        CharacterProfession = base:vcrotechnician,
+        Cost = -2,
+        UIName = UI_prof_VCRTechnician,
+        UIDescription = UI_profdesc_VCRTechnician,
+        IconPathName = profession_electrician,
+        XPBoosts = Electricity=2;Maintenance=1,
+        GrantedRecipes = CraftMakeshiftRadio;CraftMakeshiftHAMRadio,
+    }
+
+    character_profession_definition base:arcadetechnician
+    {
+        CharacterProfession = base:arcadetechnician,
+        Cost = -2,
+        UIName = UI_prof_ArcadeTechnician,
+        UIDescription = UI_profdesc_ArcadeTechnician,
+        IconPathName = profession_mechanic,
+        XPBoosts = Electricity=2;Mechanics=1,
+    }
+
+    character_profession_definition base:switchboardoperator
+    {
+        CharacterProfession = base:switchboardoperator,
+        Cost = 2,
+        UIName = UI_prof_SwitchboardOperator,
+        UIDescription = UI_profdesc_SwitchboardOperator,
+        IconPathName = profession_electrician,
+        XPBoosts = Electricity=1,
+        GrantedRecipes = CraftMakeshiftWalkieTalkie,
+    }
+
+    character_profession_definition base:secretary
+    {
+        CharacterProfession = base:secretary,
+        Cost = 4,
+        UIName = UI_prof_Secretary,
+        UIDescription = UI_profdesc_Secretary,
+        IconPathName = profession_tailor,
+    }
+
+    character_profession_definition base:postman
+    {
+        CharacterProfession = base:postman,
+        Cost = 0,
+        UIName = UI_prof_Postman,
+        UIDescription = UI_profdesc_Postman,
+        IconPathName = profession_fitnessinstructor,
+        XPBoosts = Sprinting=2;Fitness=1,
+    }
+
+    character_profession_definition base:busdriver
+    {
+        CharacterProfession = base:busdriver,
+        Cost = -2,
+        UIName = UI_prof_BusDriver,
+        UIDescription = UI_profdesc_BusDriver,
+        IconPathName = profession_mechanic,
+        XPBoosts = Mechanics=2,
+    }
+
+    character_profession_definition base:cabdriver
+    {
+        CharacterProfession = base:cabdriver,
+        Cost = -2,
+        UIName = UI_prof_CabDriver,
+        UIDescription = UI_profdesc_CabDriver,
+        IconPathName = profession_mechanic,
+        XPBoosts = Mechanics=1;Sprinting=1,
+    }
+
+    character_profession_definition base:janitor
+    {
+        CharacterProfession = base:janitor,
+        Cost = 4,
+        UIName = UI_prof_Janitor,
+        UIDescription = UI_profdesc_Janitor,
+        IconPathName = profession_repairman2,
+        XPBoosts = Maintenance=2,
+    }
+
+    character_profession_definition base:photographer
+    {
+        CharacterProfession = base:photographer,
+        Cost = 2,
+        UIName = UI_prof_Photographer,
+        UIDescription = UI_profdesc_Photographer,
+        IconPathName = profession_policeofficer2,
+        XPBoosts = Aiming=1,
+    }
+
+    character_profession_definition base:videorentalclerk
+    {
+        CharacterProfession = base:videorentalclerk,
+        Cost = 2,
+        UIName = UI_prof_VideoRentalClerk,
+        UIDescription = UI_profdesc_VideoRentalClerk,
+        IconPathName = profession_burgerflipper,
+        XPBoosts = Electricity=1,
+    }
+
+    character_profession_definition base:plumber
+    {
+        CharacterProfession = base:plumber,
+        Cost = -4,
+        UIName = UI_prof_Plumber,
+        UIDescription = UI_profdesc_Plumber,
+        IconPathName = profession_repairman2,
+        XPBoosts = Maintenance=2,
+    }
+
+    character_profession_definition base:teacher
+    {
+        CharacterProfession = base:teacher,
+        Cost = 2,
+        UIName = UI_prof_Teacher,
+        UIDescription = UI_profdesc_Teacher,
+        IconPathName = profession_doctor2,
+    }
+
+    character_profession_definition base:baker
+    {
+        CharacterProfession = base:baker,
+        Cost = -2,
+        UIName = UI_prof_Baker,
+        UIDescription = UI_profdesc_Baker,
+        IconPathName = profession_chef2,
+        XPBoosts = Cooking=2,
+        GrantedRecipes = MakeCakeBatter;MakeBiscuits;MakeChocolateCookieDough;MakeChocolateChipCookieDough;MakeOatmealCookieDough;MakeShortbreadCookieDough;MakeSugarCookieDough,
+    }
+
+    character_profession_definition base:hunter
+    {
+        CharacterProfession = base:hunter,
+        Cost = -4,
+        UIName = UI_prof_Hunter,
+        UIDescription = UI_profdesc_Hunter,
+        IconPathName = profession_parkranger2,
+        XPBoosts = Aiming=2;Trapping=1,
+        GrantedRecipes = MakeStickTrap;MakeSnareTrap;MakeWoodenBoxTrap;MakeTrapBox;MakeCageTrap,
+    }
+
+    character_profession_definition base:minister
+    {
+        CharacterProfession = base:minister,
+        Cost = 2,
+        UIName = UI_prof_Minister,
+        UIDescription = UI_profdesc_Minister,
+        IconPathName = profession_doctor2,
+        XPBoosts = Doctor=1,
+    }
+
+    character_profession_definition base:lifeguard
+    {
+        CharacterProfession = base:lifeguard,
+        Cost = 0,
+        UIName = UI_prof_Lifeguard,
+        UIDescription = UI_profdesc_Lifeguard,
+        IconPathName = profession_fitnessinstructor,
+        XPBoosts = Sprinting=1;Fitness=1,
+    }
+
+    character_profession_definition base:paramedic
+    {
+        CharacterProfession = base:paramedic,
+        Cost = -4,
+        UIName = UI_prof_Paramedic,
+        UIDescription = UI_profdesc_Paramedic,
+        IconPathName = profession_doctor2,
+        XPBoosts = Doctor=2;Sprinting=1,
+    }
 }
