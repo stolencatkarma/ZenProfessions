@@ -7,6 +7,7 @@ module ZenProfessions
         UIName = UI_prof_Journalist,
         UIDescription = UI_profdesc_Journalist,
         IconPathName = profession_burglar2,
+        GrantedTraits = zen:investigative,
         XPBoosts = Sneak=1;Lightfoot=1,
     }
 
@@ -17,6 +18,7 @@ module ZenProfessions
         UIName = UI_prof_Minister,
         UIDescription = UI_profdesc_Minister,
         IconPathName = profession_doctor2,
+        GrantedTraits = zen:spiritual,
         XPBoosts = Doctor=1,
     }
 
@@ -27,6 +29,7 @@ module ZenProfessions
         UIName = UI_prof_DJ,
         UIDescription = UI_profdesc_DJ,
         IconPathName = profession_electrician,
+        GrantedTraits = zen:electronicspecialist,
         XPBoosts = Electricity=1,
         GrantedRecipes = CraftMakeshiftRadio,
     }
@@ -38,6 +41,7 @@ module ZenProfessions
         UIName = UI_prof_VCRTechnician,
         UIDescription = UI_profdesc_VCRTechnician,
         IconPathName = profession_electrician,
+        GrantedTraits = zen:techsavvy,
         XPBoosts = Electricity=2;Maintenance=1,
         GrantedRecipes = CraftMakeshiftRadio;CraftMakeshiftHAMRadio,
     }
@@ -49,6 +53,7 @@ module ZenProfessions
         UIName = UI_prof_ArcadeTechnician,
         UIDescription = UI_profdesc_ArcadeTechnician,
         IconPathName = profession_mechanic,
+        GrantedTraits = zen:mechanicspecialist,
         XPBoosts = Electricity=2;Mechanics=1,
     }
 
@@ -59,6 +64,7 @@ module ZenProfessions
         UIName = UI_prof_SwitchboardOperator,
         UIDescription = UI_profdesc_SwitchboardOperator,
         IconPathName = profession_electrician,
+        GrantedTraits = zen:communications,
         XPBoosts = Electricity=1,
         GrantedRecipes = CraftMakeshiftWalkieTalkie,
     }
@@ -70,6 +76,7 @@ module ZenProfessions
         UIName = UI_prof_Secretary,
         UIDescription = UI_profdesc_Secretary,
         IconPathName = profession_tailor,
+        GrantedTraits = zen:organized,
         XPBoosts = Maintenance=1,
         GrantedRecipes = MakeSheetPaper;MakePencil,
     }
@@ -81,6 +88,7 @@ module ZenProfessions
         UIName = UI_prof_Postman,
         UIDescription = UI_profdesc_Postman,
         IconPathName = profession_fitnessinstructor,
+        GrantedTraits = zen:deliveryexpert,
         XPBoosts = Sprinting=2;Fitness=1,
         GrantedRecipes = MakeSheetPaper;MakeEnvelope,
     }
@@ -92,6 +100,7 @@ module ZenProfessions
         UIName = UI_prof_BusDriver,
         UIDescription = UI_profdesc_BusDriver,
         IconPathName = profession_mechanic,
+        GrantedTraits = zen:roadsavvy,
         XPBoosts = Mechanics=2,
         GrantedRecipes = BasicRepairCarEngine;BasicRepairCarBattery,
     }
@@ -103,6 +112,7 @@ module ZenProfessions
         UIName = UI_prof_CabDriver,
         UIDescription = UI_profdesc_CabDriver,
         IconPathName = profession_mechanic,
+        GrantedTraits = zen:roadsavvy,
         XPBoosts = Mechanics=1;Sprinting=1,
         GrantedRecipes = BasicRepairCarTire;BasicRepairCarBrake,
     }
@@ -114,6 +124,7 @@ module ZenProfessions
         UIName = UI_prof_Janitor,
         UIDescription = UI_profdesc_Janitor,
         IconPathName = profession_repairman2,
+        GrantedTraits = zen:maintenancepro,
         XPBoosts = Maintenance=2,
         GrantedRecipes = MakeCleaningLiquid;MakeBleach,
     }
@@ -125,6 +136,7 @@ module ZenProfessions
         UIName = UI_prof_Photographer,
         UIDescription = UI_profdesc_Photographer,
         IconPathName = profession_policeofficer2,
+        GrantedTraits = zen:marksman,
         XPBoosts = Aiming=1,
         GrantedRecipes = CraftMakeshiftCamera,
     }
@@ -136,6 +148,7 @@ module ZenProfessions
         UIName = UI_prof_VideoRentalClerk,
         UIDescription = UI_profdesc_VideoRentalClerk,
         IconPathName = profession_burgerflipper,
+        GrantedTraits = zen:entertainmentbuff,
         XPBoosts = Electricity=1,
         GrantedRecipes = CraftMakeshiftRemote;CraftMakeshiftVHS,
     }
@@ -147,6 +160,7 @@ module ZenProfessions
         UIName = UI_prof_Plumber,
         UIDescription = UI_profdesc_Plumber,
         IconPathName = profession_repairman2,
+        GrantedTraits = zen:leakrepair,
         XPBoosts = Maintenance=2,
     }
 
@@ -157,6 +171,7 @@ module ZenProfessions
         UIName = UI_prof_Teacher,
         UIDescription = UI_profdesc_Teacher,
         IconPathName = profession_doctor2,
+        GrantedTraits = zen:educator,
         XPBoosts = Teaching=1;Maintenance=1,
         GrantedRecipes = MakeSheetPaper;MakeNotebook,
     }
@@ -168,6 +183,7 @@ module ZenProfessions
         UIName = UI_prof_Baker,
         UIDescription = UI_profdesc_Baker,
         IconPathName = profession_chef2,
+        GrantedTraits = zen:culinaryartist,
         XPBoosts = Cooking=2,
         GrantedRecipes = MakeCakeBatter;MakeBiscuits;MakeChocolateCookieDough;MakeChocolateChipCookieDough;MakeOatmealCookieDough;MakeShortbreadCookieDough;MakeSugarCookieDough,
     }
@@ -179,6 +195,7 @@ module ZenProfessions
         UIName = UI_prof_Hunter,
         UIDescription = UI_profdesc_Hunter,
         IconPathName = profession_parkranger2,
+        GrantedTraits = zen:tracker,
         XPBoosts = Aiming=2;Trapping=1,
         GrantedRecipes = MakeStickTrap;MakeSnareTrap;MakeWoodenBoxTrap;MakeTrapBox;MakeCageTrap,
     }
@@ -190,6 +207,7 @@ module ZenProfessions
         UIName = UI_prof_Lifeguard,
         UIDescription = UI_profdesc_Lifeguard,
         IconPathName = profession_fitnessinstructor,
+        GrantedTraits = zen:swimmer,
         XPBoosts = Sprinting=1;Fitness=1,
         GrantedRecipes = MakeFishingRod,
     }
@@ -201,6 +219,7 @@ module ZenProfessions
         UIName = UI_prof_Paramedic,
         UIDescription = UI_profdesc_Paramedic,
         IconPathName = profession_doctor2,
+        GrantedTraits = zen:firstresponder,
         XPBoosts = Doctor=2;Sprinting=1,
         GrantedRecipes = MakeBandage;MakeSterilizedRag,
     }

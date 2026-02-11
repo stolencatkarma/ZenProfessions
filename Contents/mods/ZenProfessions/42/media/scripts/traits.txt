@@ -1,0 +1,200 @@
+module ZenProfessions
+{
+    character_trait_definition zen:investigative
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:investigative,
+        Cost = 0,
+        UIName = UI_trait_Investigative,
+        UIDescription = UI_trait_InvestigativeDesc,
+        XPBoosts = Sneak=1,
+    }
+
+    character_trait_definition zen:spiritual
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:spiritual,
+        Cost = 0,
+        UIName = UI_trait_Spiritual,
+        UIDescription = UI_trait_SpiritualDesc,
+        XPBoosts = Doctor=1,
+    }
+
+    character_trait_definition zen:electronicspecialist
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:electronicspecialist,
+        Cost = 0,
+        UIName = UI_trait_ElectronicsSpecialist,
+        UIDescription = UI_trait_ElectronicsSpecialistDesc,
+        XPBoosts = Electricity=1,
+    }
+
+    character_trait_definition zen:techsavvy
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:techsavvy,
+        Cost = 0,
+        UIName = UI_trait_TechSavvy,
+        UIDescription = UI_trait_TechSavvyDesc,
+        XPBoosts = Electricity=1;Mechanics=1,
+    }
+
+    character_trait_definition zen:mechanicspecialist
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:mechanicspecialist,
+        Cost = 0,
+        UIName = UI_trait_MechanicSpecialist,
+        UIDescription = UI_trait_MechanicSpecialistDesc,
+        XPBoosts = Mechanics=1,
+    }
+
+    character_trait_definition zen:communications
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:communications,
+        Cost = 0,
+        UIName = UI_trait_Communications,
+        UIDescription = UI_trait_CommunicationsDesc,
+        XPBoosts = Electricity=1,
+    }
+
+    character_trait_definition zen:organized
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:organized,
+        Cost = 0,
+        UIName = UI_trait_Organized,
+        UIDescription = UI_trait_OrganizedDesc,
+        XPBoosts = Maintenance=1,
+    }
+
+    character_trait_definition zen:deliveryexpert
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:deliveryexpert,
+        Cost = 0,
+        UIName = UI_trait_DeliveryExpert,
+        UIDescription = UI_trait_DeliveryExpertDesc,
+        XPBoosts = Sprinting=1,
+    }
+
+    character_trait_definition zen:roadsavvy
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:roadsavvy,
+        Cost = 0,
+        UIName = UI_trait_RoadSavvy,
+        UIDescription = UI_trait_RoadSavvyDesc,
+        XPBoosts = Mechanics=1,
+    }
+
+    character_trait_definition zen:maintenancepro
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:maintenancepro,
+        Cost = 0,
+        UIName = UI_trait_MaintenancePro,
+        UIDescription = UI_trait_MaintenanceProDesc,
+        XPBoosts = Maintenance=1,
+    }
+
+    character_trait_definition zen:marksman
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:marksman,
+        Cost = 0,
+        UIName = UI_trait_Marksman,
+        UIDescription = UI_trait_MarksmanDesc,
+        XPBoosts = Aiming=1,
+    }
+
+    character_trait_definition zen:entertainmentbuff
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:entertainmentbuff,
+        Cost = 0,
+        UIName = UI_trait_EntertainmentBuff,
+        UIDescription = UI_trait_EntertainmentBuffDesc,
+        XPBoosts = Electricity=1,
+    }
+
+    character_trait_definition zen:leakrepair
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:leakrepair,
+        Cost = 0,
+        UIName = UI_trait_LeakRepair,
+        UIDescription = UI_trait_LeakRepairDesc,
+        XPBoosts = Maintenance=1,
+    }
+
+    character_trait_definition zen:educator
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:educator,
+        Cost = 0,
+        UIName = UI_trait_Educator,
+        UIDescription = UI_trait_EducatorDesc,
+        XPBoosts = Teaching=1,
+    }
+
+    character_trait_definition zen:culinaryartist
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:culinaryartist,
+        Cost = 0,
+        UIName = UI_trait_CulinaryArtist,
+        UIDescription = UI_trait_CulinaryArtistDesc,
+        XPBoosts = Cooking=1,
+    }
+
+    character_trait_definition zen:tracker
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:tracker,
+        Cost = 0,
+        UIName = UI_trait_Tracker,
+        UIDescription = UI_trait_TrackerDesc,
+        XPBoosts = Trapping=1,
+    }
+
+    character_trait_definition zen:swimmer
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:swimmer,
+        Cost = 0,
+        UIName = UI_trait_Swimmer,
+        UIDescription = UI_trait_SwimmerDesc,
+        XPBoosts = Fitness=1,
+    }
+
+    character_trait_definition zen:firstresponder
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = zen:firstresponder,
+        Cost = 0,
+        UIName = UI_trait_FirstResponder,
+        UIDescription = UI_trait_FirstResponderDesc,
+        XPBoosts = Doctor=1;Sprinting=1,
+    }
+}
