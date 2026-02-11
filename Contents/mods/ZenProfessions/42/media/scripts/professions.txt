@@ -1,16 +1,5 @@
 module ZenProfessions
 {
-    character_profession_definition zen:librarian
-    {
-        CharacterProfession = zen:librarian,
-        Cost = 2,
-        UIName = UI_prof_Librarian,
-        UIDescription = UI_profdesc_Librarian,
-        IconPathName = profession_doctor2,
-        XPBoosts = PlantScavenging=2;Maintenance=1,
-        GrantedRecipes = MakeHollowBook,
-    }
-
     character_profession_definition zen:journalist
     {
         CharacterProfession = zen:journalist,

@@ -1,5 +1,4 @@
 -- Register all ZenProfessions professions
-CharacterProfession.register("zen:librarian")
 CharacterProfession.register("zen:journalist")
 CharacterProfession.register("zen:minister")
 CharacterProfession.register("zen:dj")
