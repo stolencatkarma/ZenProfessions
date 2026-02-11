@@ -134,4 +134,3 @@ Created for the Project Zomboid community to enhance character creation and role
 ---
 
 **Compatible with Project Zomboid Build 42** | **Workshop ID: ZenProfessions**</content>
-<parameter name="filePath">c:\Users\enjia\Zomboid\Workshop\ZenProfessions\README.md
