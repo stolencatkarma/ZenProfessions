@@ -47,13 +47,12 @@ Zen Professions expands your character creation options with professionally-them
 
 ## 🛠️ Installation
 
-1. **Download** the mod files from the releases section
-2. **Locate** your Project Zomboid workshop folder:
+1. **Download** the repository as a ZIP file using the **Code** button above
+2. **Extract** the ZIP file to your Project Zomboid workshop folder:
    - Usually: `C:\Users\[YourName]\Zomboid\Workshop`
-3. **Extract** the `ZenProfessions` folder into your workshop directory
-4. **Launch** Project Zomboid
-5. **Enable** the mod in the main menu under "Mods"
-6. **Create** a new character and select from the 19 new professions!
+3. **Launch** Project Zomboid
+4. **Enable** the mod in the main menu under "Mods"
+5. **Create** a new character and select from the 19 new professions!
 
 ## 📊 Profession Details
 
