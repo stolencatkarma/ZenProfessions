@@ -1,4 +1,5 @@
 name=Zen Professions
 id=ZenProfessions
 description=ZenProfessions
-poster=poster.png
+poster=media/poster.png
+icon=media/zen_icon.png
