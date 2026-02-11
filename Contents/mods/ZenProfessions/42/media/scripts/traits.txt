@@ -9,6 +9,7 @@ module ZenProfessions
         UIName = UI_trait_Investigative,
         UIDescription = UI_trait_InvestigativeDesc,
         XPBoosts = Sneak=1,
+        GrantedRecipes = MakeHollowBook,
     }
 
     character_trait_definition zen:spiritual
@@ -20,6 +21,7 @@ module ZenProfessions
         UIName = UI_trait_Spiritual,
         UIDescription = UI_trait_SpiritualDesc,
         XPBoosts = Doctor=1,
+        GrantedRecipes = MakeSheetPaper,
     }
 
     character_trait_definition zen:electronicspecialist
@@ -31,6 +33,7 @@ module ZenProfessions
         UIName = UI_trait_ElectronicsSpecialist,
         UIDescription = UI_trait_ElectronicsSpecialistDesc,
         XPBoosts = Electricity=1,
+        GrantedRecipes = CraftMakeshiftSpeaker,
     }
 
     character_trait_definition zen:techsavvy
@@ -53,6 +56,7 @@ module ZenProfessions
         UIName = UI_trait_MechanicSpecialist,
         UIDescription = UI_trait_MechanicSpecialistDesc,
         XPBoosts = Mechanics=1,
+        GrantedRecipes = BasicRepairCarSuspension,
     }
 
     character_trait_definition zen:communications
@@ -75,6 +79,7 @@ module ZenProfessions
         UIName = UI_trait_Organized,
         UIDescription = UI_trait_OrganizedDesc,
         XPBoosts = Maintenance=1,
+        GrantedRecipes = MakeNotebook,
     }
 
     character_trait_definition zen:deliveryexpert
@@ -86,6 +91,7 @@ module ZenProfessions
         UIName = UI_trait_DeliveryExpert,
         UIDescription = UI_trait_DeliveryExpertDesc,
         XPBoosts = Sprinting=1,
+        GrantedRecipes = MakeTarp,
     }
 
     character_trait_definition zen:roadsavvy
@@ -108,6 +114,7 @@ module ZenProfessions
         UIName = UI_trait_MaintenancePro,
         UIDescription = UI_trait_MaintenanceProDesc,
         XPBoosts = Maintenance=1,
+        GrantedRecipes = MakeMetalDrum,
     }
 
     character_trait_definition zen:marksman
@@ -119,6 +126,7 @@ module ZenProfessions
         UIName = UI_trait_Marksman,
         UIDescription = UI_trait_MarksmanDesc,
         XPBoosts = Aiming=1,
+        GrantedRecipes = MakeScope,
     }
 
     character_trait_definition zen:entertainmentbuff
@@ -130,6 +138,7 @@ module ZenProfessions
         UIName = UI_trait_EntertainmentBuff,
         UIDescription = UI_trait_EntertainmentBuffDesc,
         XPBoosts = Electricity=1,
+        GrantedRecipes = CraftMakeshiftMicrophone,
     }
 
     character_trait_definition zen:leakrepair
@@ -141,6 +150,7 @@ module ZenProfessions
         UIName = UI_trait_LeakRepair,
         UIDescription = UI_trait_LeakRepairDesc,
         XPBoosts = Maintenance=1,
+        GrantedRecipes = MakePipeWrench,
     }
 
     character_trait_definition zen:educator
@@ -152,6 +162,7 @@ module ZenProfessions
         UIName = UI_trait_Educator,
         UIDescription = UI_trait_EducatorDesc,
         XPBoosts = Teaching=1,
+        GrantedRecipes = MakePencil,
     }
 
     character_trait_definition zen:culinaryartist
@@ -185,6 +196,7 @@ module ZenProfessions
         UIName = UI_trait_Swimmer,
         UIDescription = UI_trait_SwimmerDesc,
         XPBoosts = Fitness=1,
+        GrantedRecipes = MakeFishingNet,
     }
 
     character_trait_definition zen:firstresponder
