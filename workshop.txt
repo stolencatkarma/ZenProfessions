@@ -1,6 +1,6 @@
 version=1
 id=3664271402
 title=ZenProfessions
-description=A comprehensive Project Zomboid mod that adds 19 unique professions to the character creation screen, each with thematic skills, recipes, and traits.
+description=A comprehensive Project Zomboid mod that adds 30 unique professions to the character creation screen, each with thematic skills, recipes, and traits.
 tags=Build 42
 visibility=public
